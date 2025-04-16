@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículum y Portafolio</title>
+    <link rel="stylesheet" href="/styles/diseño.css">
+</head>
+<body>
+    <header>
+        <h1>Ivan Josue Loaiza Hernandez</h1>
+        <p>Estudiante de Ingeniería en Sistemas (UNA)</p>
+    </header>
+    
+    <section id="educacion">
+        <h2>Educación y Experiencia</h2>
+        <p>Detalles sobre formación académica y experiencia laboral.</p>
+    </section>
+
+    <section id="Idiomas">
+        <h2> Idiomas </h2>
+        <p>- Inglés: Intermedio (B2)</p>
+        <p>- Español: Nativo</p>
+    </section>
+    
+    <section id="habilidades">
+        <h2>Habilidades</h2>
+        <ul>
+            <li>Lenguajes de programación: C#, JavaScript, TypeScript</li>
+            <li>Frameworks y tecnologías: React (con TypeScript), Nest.js, HTML, CSS</li>
+            <li>Bases de datos: MySQL</li>
+            <li>Git, GitHub, GNU/Linux, redes (CCNA)</li>
+        </ul>
+    </section>
+
+    <section id="portafolio">
+        <h2>Portafolio de Proyectos</h2>
+    
+        <div class="proyecto">
+            <h3>Proyecto 1: Administrador Municipalidad de Nicoya</h3>
+            <p>Sistema administrativo para gestionar solicitudes de la municipalidad.</p>
+            <a href="https://zmtmn-dashboard.vercel.app/" target="_blank">Ver Proyecto</a>
+            <a href="https://github.com/ivan-loaiza" target="_blank">
+                <img src="img/github.png" alt="GitHub" width="24" height="24">
+            </a>
+            <a href="https://instagram.com/ivanloaizahernandez" target="_blank">
+                <img src="img/instagram.png" alt="Instagram" width="24" height="24">
+            </a>
+        </div>
+    
+        <div class="proyecto">
+            <h3>Proyecto 2: Plataforma de Usuarios</h3>
+            <p>Aplicación para gestión de usuarios y autenticación segura.</p>
+            <a href="https://zmtmn-usuarios.vercel.app/" target="_blank">Ver Proyecto</a>
+            <a href="https://github.com/ivan-loaiza" target="_blank">
+                <img src="img/github.png" alt="GitHub" width="24" height="24">
+            </a>
+            <a href="https://instagram.com/ivanloaizahernandez" target="_blank">
+                <img src="img/instagram.png" alt="Instagram" width="24" height="24">
+            </a>
+        </div>
+    </section>
+    
+    
+    <section id="testimonios">
+        <h2>Testimonios</h2>
+        <div class="testimonio">
+            <p>"Gran profesional con excelentes habilidades en desarrollo web."</p>
+            <p>- Cliente Satisfecho</p>
+        </div>
+        <div class="testimonio">
+            <p>"Muy organizado y con gran capacidad de resolución de problemas."</p>
+            <p>- Compañero de trabajo</p>
+        </div>
+    </section>
+    
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <form id="formContacto" class="form-contacto">
+          <div class="form-group">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+          </div>
+      
+          <div class="form-group">
+            <label for="email">Correo:</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+      
+          <div class="form-group full">
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+          </div>
+      
+          <input type="hidden" name="fecha" id="fecha">
+          <input type="hidden" name="hora" id="hora">
+      
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+      
+    
+    <footer>
+        <p>&copy; 2025 Ivan Loaiza Hernandez. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- EmailJS -->
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script>
+      (function(){
+        emailjs.init("5-SFsIwLnwbnQKwO1");
+      })();
+    </script>
+
+    <!-- Script principal -->
+    <script src="javaScript.js"></script>
+</body>
+</html>
