@@ -1,0 +1,16 @@
+# Portafolio Personal
+
+Este es mi sitio web personal donde presento mi currículum vitae, habilidades, experiencia y una galería de proyectos desarrollados durante mi carrera universitaria. Fue desarrollado desde cero utilizando html,css y javascript para interactividad.
+
+## Tecnologías
+- CSS (Flexbox/Grid)
+- HTML semántico
+- JavaScript para interactividad
+
+## Funcionalidades
+- Modo oscuro / claro
+- Formulario de contacto con validación
+- Portafolio interactivo con tarjetas de proyectos
+
+## Deploy
+Sitio en producción: [vercel.app/enlace](https://portafolio-three-wheat.vercel.app/)
