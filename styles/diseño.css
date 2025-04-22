@@ -219,4 +219,22 @@ section {
     transform: scale(1.2);
   }
   
+  #barra-superior {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .iconos-izquierda a img,
+  .icono-derecha span {
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .iconos-izquierda a img:hover,
+  .icono-derecha span:hover {
+    transform: scale(1.2);
+    transition: transform 0.2s ease;
+  }
   
